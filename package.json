@@ -1,0 +1,16 @@
+{
+  "name": "test1",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "registry:login": "node --version && pnpm --version"
+  },
+  "description": "Test project",
+  "packageManager": "pnpm@9.6.0",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "node": "20.16.0"
+  }
+}

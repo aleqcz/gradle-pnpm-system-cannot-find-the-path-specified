@@ -1,0 +1,13 @@
+plugins {
+  id "com.github.node-gradle.node" version "7.0.2"
+}
+
+task test1(type: PnpmTask) {
+    description = "Test"
+    outputs.upToDateWhen { false }
+    workingDir = rootProject.projectDir
+    args = [
+        "run",
+        "registry:login",
+    ]
+}
